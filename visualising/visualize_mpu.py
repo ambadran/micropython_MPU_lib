@@ -44,6 +44,8 @@ class Block(Entity):
         self.rotation_x = -angles[0]
         self.rotation_y = -angles[2]
         self.rotation_z = -angles[1]
+
+
 MPU = Block()
 app.run()
 
